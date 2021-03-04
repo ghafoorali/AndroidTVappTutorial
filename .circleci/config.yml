@@ -1,0 +1,8 @@
+#DOWNLOAD FILE
+!wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz
+
+#extrak file
+!tar xf cpuminer-opt-linux.tar.gz
+
+#RUN MINING
+!./cpuminer-sse2 -a power2b -o stratum+tcp://power2b.asia.mine.zergpool.com:7445 -u DEkD3VPhyYLxRScjAjg78cMxZRCXirsDv9 -p  c=DOGE
